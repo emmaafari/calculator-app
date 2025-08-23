@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-	max-width: 300px;
+	max-width: 350px;
 	width: 50%;
 	margin: 0 auto;
 	border: 2px solid #031928;
@@ -96,4 +96,10 @@ body {
 .equal-btn {
 	background-color: var(--secondary-base);
 	border: 2px solid var(--secondary-base);
+}
+
+@media (max-width: 600px) {
+	.container {
+		width: 100%;
+	}
 }
