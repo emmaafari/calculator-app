@@ -25,7 +25,7 @@ body {
 .container {
 	max-width: 350px;
 	width: 50%;
-	margin: 0 auto;
+	margin: auto;
 	border: 2px solid #031928;
 	margin-top: 3rem;
 	border-radius: 1.5rem;
