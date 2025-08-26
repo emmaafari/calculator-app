@@ -2,8 +2,10 @@
 	--font-family: "Roboto", sans-serif;
 	--font-weight-normal: 400;
 	--font-weight-bold: 700;
-	--primary-base: #04283f;
-	--secondary-base: #f76707;
+	--primary-base: #043655;
+	--primary-tint: #054369;
+	--secondary-base: #fd7e14;
+	--secondary-shade: #ff922b;
 }
 
 * {
@@ -78,6 +80,11 @@ body {
 	grid-column: span 2; /* Makes the equal button span across 2 columns */
 }
 
+.equal-btn:hover {
+	background-color: var(--secondary-shade) !important;
+	border: 2px solid var(--secondary-shade) !important;
+}
+
 .btn {
 	width: auto;
 	height: 50px;
@@ -86,6 +93,15 @@ body {
 	background-color: var(--primary-base);
 	color: #f8f9fa;
 	border: 2px solid var(--primary-base);
+}
+
+.btn:hover {
+	background-color: var(--primary-tint);
+	border: 2px solid var(--primary-tint);
+}
+
+.btn:active {
+	transform: scale(0.95);
 }
 
 .operator {
